@@ -16,10 +16,10 @@ import tourRoutes from "./routes/tourRoutes.js"
 connectDB();
 const app = express();
 
-app.use(cors({
-  origin: 'http://localhost:5173', // Replace with your frontend domain
-  credentials: true, // Allow credentials
-}));
+// app.use(cors({
+//   origin: 'http://localhost:5173', // Replace with your frontend domain
+//   credentials: true, // Allow credentials
+// }));
 
 
 app.use(express.json());
