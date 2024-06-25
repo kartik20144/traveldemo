@@ -40,7 +40,7 @@ const BlogPage = () => {
     <div className="max-w-4xl mx-auto py-8">
       <div className="bg-white shadow-md rounded-lg overflow-hidden">
         <img
-        src={`${backendUrl}${blogPost.image}`}
+        src={blogPost.image}
           alt={blogPost.title}
           className="w-full h-[400px] object-cover object-center"
         />

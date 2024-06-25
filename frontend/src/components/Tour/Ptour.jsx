@@ -42,13 +42,17 @@ const Ptour = () => {
   }
 
   const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  
 
   return (
     <div className="page">
       <div className="top flex flex-col md:flex-row">
-        <div className="image_slider w-full h-[285px] md:w-[738px] md:h-[386px]">
+        
+          <div className="image_slider w-full h-[285px] md:w-[738px] md:h-[386px]">
           <img src={tourData.image} alt={tourData.name} />
         </div>
+       
+        
         <div className="context">
           <div className="w-full">
             <h2>{tourData.name}</h2>

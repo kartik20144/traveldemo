@@ -19,7 +19,7 @@ const Card = (props) => {
         <div className="max-w-xs rounded overflow-hidden shadow-lg m-4 relative transform hover:scale-110 transition-transform duration-300 cursor-pointer">
           <img
             className="w-full h-44 sm:h-56 object-cover"
-            src={`${backendUrl}${props.image}`}
+            src={props.image}
             alt={props.title}
           />
           <div className="px-4 py-2 sm:px-6 sm:py-4">
